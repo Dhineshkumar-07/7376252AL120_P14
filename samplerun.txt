@@ -1,0 +1,306 @@
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 9
+Error: invalid choice. Please enter a number from 0 to 7.
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 
+Error: choice cannot be empty.
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): abc
+Error: invalid choice. Please enter a number from 0 to 7.
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 1
+
+--- Register Patient ---
+Name: 
+Error: input cannot be empty.
+Name: Rahul|Menon
+Error: the '|' character is not allowed.
+Name: Rahul Menon
+Age (0-120): abc
+Error: please enter a whole number.
+Age (0-120): 150
+Error: value must be between 0 and 120.
+Age (0-120): 30
+Gender (M/F/O): X
+Error: enter M, F or O.
+Gender (M/F/O): m
+Phone (10 digits): 12345
+Error: phone must be exactly 10 digits.
+Phone (10 digits): 9876543210
+Blood group (A+, A-, B+, B-, AB+, AB-, O+, O-): C+
+Error: invalid blood group.
+Blood group (A+, A-, B+, B-, AB+, AB-, O+, O-): o+
+Patient registered successfully. Patient ID: P0013
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 2
+
+--- Record Visit ---
+Patient ID: P9999
+Error: patient ID not found.
+Patient ID: p0013
+Patient: Rahul Menon
+Visit date (DD-MM-YYYY): 31-02-2026
+Error: invalid date. Use DD-MM-YYYY (e.g. 11-10-2026).
+Visit date (DD-MM-YYYY): 21-10-2026
+Doctor: Dr. Ravi
+Symptoms: Cough and cold
+Diagnosis: Common cold
+Fee (Rs.): -5
+Error: please enter a whole number.
+Fee (Rs.): 200
+Visit recorded successfully.
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 3
+
+--- Patient History ---
+Patient ID: P0013
+
+P0013 | Rahul Menon | Age 30 | M | 9876543210 | O+
+
+Date        Doctor        Symptoms            Diagnosis               Fee
+----------------------------------------------------------------------------
+21-10-2026  Dr. Ravi      Cough and cold      Common cold             200
+----------------------------------------------------------------------------
+Total visits: 1
+Total fees  : Rs. 200
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 3
+
+--- Patient History ---
+Patient ID: P0012
+
+P0012 | Meena S | Age 34 | F | 9790012345 | B+
+
+Date        Doctor        Symptoms            Diagnosis               Fee
+----------------------------------------------------------------------------
+05-08-2026  Dr. Ravi      Fever and chills    Viral fever             400
+12-08-2026  Dr. Ravi      Persistent cough    Bronchitis              350
+02-09-2026  Dr. Kavitha   Headache            Migraine                500
+20-09-2026  Dr. Ravi      Mild fever          Follow-up               150
+11-10-2026  Dr. Ravi      Mild fever          Follow-up               150
+----------------------------------------------------------------------------
+Total visits: 5
+Total fees  : Rs. 1550
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 4
+
+--- Search Patients ---
+Enter patient ID, part of name, or phone number: meena
+
+ID      Name            Age   Gender  Phone        Blood
+--------------------------------------------------------
+P0012   Meena S         34    F       9790012345   B+
+1 patient(s) found.
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 4
+
+--- Search Patients ---
+Enter patient ID, part of name, or phone number: 9840
+
+ID      Name            Age   Gender  Phone        Blood
+--------------------------------------------------------
+P0001   Arun Kumar      45    M       9840011223   O+
+1 patient(s) found.
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 4
+
+--- Search Patients ---
+Enter patient ID, part of name, or phone number: zzz
+No matching patients found.
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 5
+
+--- Doctor-wise Report ---
+
+Doctor          Patients Seen   Visits    Fees Collected
+--------------------------------------------------------
+Dr. Anand       3               7         Rs. 3600
+Dr. Kavitha     5               7         Rs. 3100
+Dr. Ravi        5               8         Rs. 2150
+Dr. Sundar      3               5         Rs. 1650
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 6
+
+--- Patient Statistics ---
+Patients with more than 3 visits:
+  P0001  Arun Kumar    4 visits
+  P0003  Karthik M     4 visits
+  P0012  Meena S       5 visits
+
+Patients per blood group:
+  A+  : 2
+  A-  : 1
+  B+  : 3
+  B-  : 1
+  AB+ : 1
+  AB- : 1
+  O+  : 3
+  O-  : 1
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 7
+
+--- Monthly Report (Bonus) ---
+
+Month       Visits    Fees Collected
+------------------------------------
+07-2026     2         Rs. 1400
+08-2026     8         Rs. 3450
+09-2026     10        Rs. 3400
+10-2026     7         Rs. 2250
+
+==========================================
+      HOSPITAL PATIENT RECORDS SYSTEM
+==========================================
+1. Register patient
+2. Record visit
+3. Patient history
+4. Search patients
+5. Doctor-wise report
+6. Patient statistics
+7. Monthly report (bonus)
+0. Exit
+Enter your choice (0-7): 0
+
+Thank you for using the Hospital Patient Records System. Goodbye!

@@ -1,0 +1,27 @@
+PatientID|Date|Doctor|Symptoms|Diagnosis|Fee
+P0012|05-08-2026|Dr. Ravi|Fever and chills|Viral fever|400
+P0012|12-08-2026|Dr. Ravi|Persistent cough|Bronchitis|350
+P0012|02-09-2026|Dr. Kavitha|Headache|Migraine|500
+P0012|20-09-2026|Dr. Ravi|Mild fever|Follow-up|150
+P0012|11-10-2026|Dr. Ravi|Mild fever|Follow-up|150
+P0003|10-07-2026|Dr. Anand|Chest pain|Angina suspected|800
+P0003|24-07-2026|Dr. Anand|Chest pain|ECG normal|600
+P0003|14-08-2026|Dr. Anand|Breathlessness|Hypertension|450
+P0003|09-10-2026|Dr. Sundar|Back pain|Muscle strain|300
+P0001|03-08-2026|Dr. Sundar|Knee pain|Arthritis|400
+P0001|17-08-2026|Dr. Sundar|Knee pain|Physiotherapy advised|300
+P0001|07-09-2026|Dr. Ravi|Cold|Common cold|200
+P0001|01-10-2026|Dr. Sundar|Knee pain|Follow-up|250
+P0002|15-08-2026|Dr. Kavitha|Skin rash|Allergic dermatitis|450
+P0002|29-09-2026|Dr. Kavitha|Skin rash|Follow-up|200
+P0004|18-08-2026|Dr. Kavitha|Fatigue|Anaemia|500
+P0005|22-08-2026|Dr. Anand|Dizziness|Low blood pressure|600
+P0005|30-09-2026|Dr. Anand|Dizziness|Follow-up|250
+P0006|01-09-2026|Dr. Ravi|Sore throat|Tonsillitis|350
+P0007|08-09-2026|Dr. Sundar|Stomach pain|Gastritis|400
+P0008|13-09-2026|Dr. Kavitha|Fever|Dengue suspected|700
+P0008|20-09-2026|Dr. Kavitha|Fever|Recovering|300
+P0009|25-09-2026|Dr. Ravi|Ear pain|Ear infection|350
+P0010|03-10-2026|Dr. Kavitha|Joint pain|Vitamin D deficiency|450
+P0011|05-10-2026|Dr. Anand|High sugar|Type 2 diabetes|600
+P0011|15-10-2026|Dr. Anand|Fatigue|Diabetes review|300
