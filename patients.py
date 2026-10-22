@@ -1,16 +1,10 @@
-# P14 - Hospital Patient Records
-# Terminal-based application using core Python only (no imports).
-
 PATIENT_FILE = "patients.txt"
 VISIT_FILE = "visits.txt"
 PATIENT_HEADER = "ID|Name|Age|Gender|Phone|BloodGroup"
 VISIT_HEADER = "PatientID|Date|Doctor|Symptoms|Diagnosis|Fee"
 BLOOD_GROUPS = ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"]
 
-
-# ---------------------------------------------------------------
 # File handling
-# ---------------------------------------------------------------
 def load_records(filename, field_count):
     """Read a '|' separated file and return a list of field lists."""
     records = []
@@ -25,9 +19,9 @@ def load_records(filename, field_count):
         if line == "":
             continue
         parts = line.split("|")
-        if parts[0] in ("ID", "PatientID"):  # header line
+        if parts[0] in ("ID", "PatientID"): 
             continue
-        if len(parts) != field_count:  # skip damaged lines
+        if len(parts) != field_count:  
             continue
         records.append(parts)
     return records
