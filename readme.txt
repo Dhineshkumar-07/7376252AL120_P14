@@ -1,5 +1,5 @@
 P14 - HOSPITAL PATIENT RECORDS
-AIXcelerate Python Projects Level 2
+AIXcelerate Python Projects Level 
 =====================================
 
 OVERVIEW
@@ -60,4 +60,3 @@ NOTES
 sample_run.txt was captured from a real run starting with the supplied
 patients.txt and visits.txt. It registered P0013 and recorded one visit.
 Re-run the program and update sample_run.txt whenever the code changes.
-Rename the folder to RegisterNumber_P14 (e.g. 22CS1234_P14) before submitting.
